@@ -1,0 +1,26 @@
+[
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "username": "demo",
+      "is_active": true,
+      "is_staff": false,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$870000$demo$HqgDPk0/3wKx9pQ5u9tQJ2qvQm9D7B8xKXxYpE6h9Jg=",
+      "email": "demo@example.com"
+    }
+  },
+  {
+    "model": "api.note",
+    "pk": 1,
+    "fields": {
+      "user": 1,
+      "title": "Welcome",
+      "content": "Your first note!",
+      "is_archived": false,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  }
+]
